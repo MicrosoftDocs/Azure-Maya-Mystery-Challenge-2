@@ -1,0 +1,21 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"description": "A shopping app for part 2 of the Azure Maya Mystery",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Node.js",
+		"Express",
+		"Shopping Cart"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mustache-express": "^1.3.0",
+		"node-fetch": "^2.6.0"
+	}
+}

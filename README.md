@@ -1,7 +1,32 @@
+# Welcome to the Cenote Shoppe Shopping Cart App
 
-# Contributing
+By running this application using Node.js, you will be able to gather the gear you need to dive into the mysterious cenote as described in Part 2 of the [Azure Maya Mystery](https://aka.ms/AzureMayaMystery).
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+> This app is built with Node.js. To learn all about Node, please visit Microsoft Learn's Node.js [learning path](https://docs.microsoft.com/en-gb/learn/paths/build-javascript-applications-nodejs/?WT.mc_id=mayamystery-github-chnoring).
+
+Start by installing all the app's dependencies
+
+```bash
+npm install
+```
+
+Run the shop by typing
+
+```bash
+node app.js
+```
+
+The app should be up and running on port `3000` on your localhost (http://localhost:3000).
+
+Try adding items to the cart. If you can add the one item you need for this part of the game into your cart, the attached API will tell you what the code is to enable delivery of your gear AND reveal the name of the second glyph that makes up the mysterious temple's name. Make a note of the code and return to the Maya Mystery to input it into the correct space. Here's a hint of its meaning, via its Maya glyph:
+
+![yax](yax.png)
+
+-   Art by Dana Moot II
+
+## Contributing
+
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -13,7 +38,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),

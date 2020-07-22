@@ -1,0 +1,35 @@
+<html>
+ <head>
+   <link rel="stylesheet" href="frontend.css" />
+ </head>
+ <body>
+  <div class="menu">
+    <h2>Cenote Shoppe</h2>
+  </div>
+  <div id="cart" class="cart"></div>
+  <div id="checkout" >
+    <button onclick="checkout()">Checkout</button>
+  </div>
+
+  <div class="items">
+  {{#items}}
+    <div class="item">
+      <div>
+        <img src="{{url}}">
+      </div>
+      <div class="description">
+        {{description}}
+      </div>
+      <div class="button">
+        <button onclick="add({{id}}, {{encodeURI(url)}})">Add</button>
+      </div>
+    </div>
+    
+  {{/items}}
+  </div>
+  </body>
+</html>
+
+<script src="frontend.js">
+  
+</script>
