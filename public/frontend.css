@@ -1,0 +1,58 @@
+/*Copyright (c) Microsoft Corporation.
+Licensed under the MIT license.*/
+
+.items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item {
+	box-shadow: 0 0 5px gray;
+	max-width: 350px;
+	margin-bottom: 10px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.item .button {
+	padding: 20 0px;
+	float: right;
+	margin: 10px;
+	padding: 10 10;
+}
+
+.item button {
+	background: blue;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.item .description {
+	padding: 10;
+}
+
+#cart {
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px grey;
+	padding: 5px 10px;
+}
+
+#checkout {
+	float: right;
+}
+
+#checkout button {
+	padding: 10 20;
+	font-weight: bold;
+}
+
+.menu {
+	background: #222;
+	color: white;
+	font-family: verdana;
+	padding: 1px 5px;
+}
